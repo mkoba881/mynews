@@ -9,8 +9,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
-                <h2>プロフィール新規作成</h2>
-                <h2>AWSデプロイ2のテスト差分</h2>
+                <h2>プロフィール新規作成、AWSデプロイ2のテスト差分</h2>
                 <form action="{{ route('admin.profile.create') }}" method="post" enctype="multipart/form-data">
                     @if (count($errors) > 0)
                         <ul>
